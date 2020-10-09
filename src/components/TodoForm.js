@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef } from 'react'
+import React, {useState, useEffect, useRef } from 'react';
 
 function TodoForm(props) {
   const [input, setInput] = useState(props.edit ? props.edit.value : '');
@@ -7,7 +7,7 @@ function TodoForm(props) {
 
   useEffect(() => {
     inputRef.current.focus()
-  })
+  });
 
   const handleChange = e => {
     setInput(e.target.value);
@@ -20,13 +20,12 @@ function TodoForm(props) {
       id: Math.floor(Math.random() * 1000),
       text: input
     });
-
-    setInput('')
+    setInput('');
   };
 
   return (
     // update 버튼과 Add 버튼 분리
-    <form className="todo-form" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="todo-form">
       {props.edit ? ( 
         <>
         <input type="text" placeholder="Update your item" value={input} name="text" className="todo-input edit" 
@@ -37,7 +36,7 @@ function TodoForm(props) {
         <>
         <input type="text" placeholder="Add a todo" value={input} name="text" className="todo-input" 
         onChange={handleChange} ref={inputRef} />
-        <button className="todo-button">Add todo</button>
+        <button  onClick={handleSubmit} className="todo-button">Add todo</button>
         </>
       )}  
     </form>
