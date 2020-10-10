@@ -1,5 +1,5 @@
 ## TodoList
-- about react hooks
+- react hooks
 
 <hr>
 <h3 align="center">This is the Url
