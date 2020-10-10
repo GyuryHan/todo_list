@@ -3,7 +3,7 @@
 
 <hr>
 
-![2](https://user-images.githubusercontent.com/66048317/95646536-5d6aff00-0b04-11eb-9149-690b67eb90e4.png)
+![2](https://user-images.githubusercontent.com/66048317/95646560-999e5f80-0b04-11eb-8dcc-cb549273d685.png)
 
 TodoList 수정, 삭제가 가능합니다.
 
