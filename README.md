@@ -7,4 +7,6 @@
 https://gyuryhan.github.io/todo_list/
 
 
-![1](https://user-images.githubusercontent.com/66048317/95646412-352ed080-0b03-11eb-904f-f2e0cbd730ff.png)
+
+
+![2](https://user-images.githubusercontent.com/66048317/95646486-dd449980-0b03-11eb-8de2-940086671b0e.png)
